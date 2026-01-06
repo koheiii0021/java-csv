@@ -1,0 +1,4 @@
+IN 2
+XXX 10
+OUT a
+OUT 1
