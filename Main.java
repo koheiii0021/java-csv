@@ -1,17 +1,17 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int current = 0;
         String line;
+        int current = 0;
 
         while ((line = br.readLine()) != null) {
             line = line.trim();
             if (line.isEmpty()) continue;
-
+            
             String[] parts = line.split("\\s+");
             if (parts.length != 2) continue;
 
@@ -23,7 +23,7 @@ public class Main {
                 count = Integer.parseInt(countStr);
             } catch (NumberFormatException e) {
                 continue;
-            } 
+            }
 
             if ("IN".equals(action)) {
                 current += count;

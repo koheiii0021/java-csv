@@ -2,3 +2,11 @@ IN 2
 XXX 10
 OUT a
 OUT 1
+IN 4
+xx 12
+IN 10
+IN 10 10
+OUT 20
+IN IN 
+IN 30
+OUT 1
